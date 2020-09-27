@@ -24,5 +24,11 @@ namespace RandomCards
             Suit = suit;
             Value = value;
         }
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
+    
 }
